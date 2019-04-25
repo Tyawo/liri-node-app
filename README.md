@@ -56,7 +56,7 @@ Type into the command line...
 
 # WHAT EACH COMMAND SHOULD DO
 
-1. `node liri.js concert-this <artist/band name here>`
+1. `node liri.js concert-this 'artist/band name'`
 
    * This will search the Bands in Town Artist Events API (`"https://rest.bandsintown.com/artists/" + artist + "/events?app_id=codingbootcamp"`) for an artist and render the following information about each event to the terminal:
 
@@ -66,7 +66,7 @@ Type into the command line...
 
      * Date of the Event (use moment to format this as "MM/DD/YYYY")
 
-2. `node liri.js spotify-this-song '<song name here>'`
+2. `node liri.js spotify-this-song 'song name'`
 
    * This will show the following information about the song in your terminal/bash window
 
@@ -80,7 +80,7 @@ Type into the command line...
 
    * If no song is provided then your program will default to "The Sign" by Ace of Base.
 
-  3. `node liri.js movie-this '<movie name here>'`
+  3. `node liri.js movie-this 'movie name'`
 
    * This will output the following information to your terminal/bash window:
 
