@@ -80,6 +80,78 @@ function concertThis() {
     };
 });
 }
+function spotifyThisSong() {
+    console.log(`\n----\n\nSEARCHING FOR..."${userQuery}"`);
+
+    // if the query not found, pass value of "The sign of ace of base"
+    if (!userQuery) { userQuery = "The sign of the Ace of base" };
+
+    // SPOTIFY SEARCH QUERY FORMAT
+    spotify.search({ type: 'track', query: userQuery, limit: 1 }, function (error, data) {
+        if (error) {
+            return console.log('Error occured: ' + error);
+        }
+        // Collect selected data in an array
+        var spotifyArr = data.tracks.items;
+
+        for (i = 0; i < spotifyArr.length; i++) {
+            console.log(`\nSONG SEARCH RESULTS...\n\nTitle: ${data.tracks.items[i].name}
+                        \nArtist: ${data.tracks.items[i].album.artists[0].name}
+                        \nSong:  ${data.tracks.items[i].name}
+                        \nSpotify link: ${data.tracks.items[i].external_urls.spotify}
+                        \nAlbum: ${data.tracks.items[i].album.name}\n\n---------------------------------------------`)
+        };
+    });
+}
+
+function movieThis() {
+    console.log(`\n-----\n\nSEARCH FOR ..."${userQuery}"`);
+    if (!userQuery) {userQuery = "Mr nobody";};
+
+    // REQUEST USING OMDB API
+    request("http://www.omdbapi.com/?t=" + userQuery + "&apikey=95e09f14", function(error, response, body){
+        var userMovie = JSON.parse(body);
+        
+        // create an array to capture nested Rotten tomatoes values
+        var ratingsArr = userMovie.Ratings;
+        if (ratingsArr.length > 2) {
+        }
+
+        if (!error && response.statusCode === 200) {
+            console.log(`\nMOVIE SEARCH RESULTS...\n\nTitle: ${userMovie.Title}
+                        \nCast: ${userMovie.Actors}
+                        \nReleased: ${userMovie.Year}
+                        \nIMDb Rating: ${userMovie.imdbRating}
+                        \nRotten Tomatoes Rating: ${userMovie.Ratings[1].Value}
+                        \nCountry: ${userMovie.Country}
+                        \nLanguage: ${userMovie.Language}
+                        \nPlot: ${userMovie.Plot}\n\n---`)
+        }else {
+            return console.log("Movie not found. Error:" + error)
+        };
+
+    })
+
+}
+
+// function doWhatItSays() {
+//     // use READFILE to access random.txt
+//     fs.readFile("random.txt", "utf8", function(error, data) {
+//         if (error) { return console.log(error);}
+
+//     // catch data and use the split(" ") method to separate objects in the new array
+//     var dataArr = data.split(",");
+
+//     // Take objects from random.txt and pass as parameters
+//     userInput = dataArr[0];
+//     userQuery = dataArr[1];
+//     // Call command with the new parameters
+//     userCommand(userInput, userQuery);
+//     });
+// };
+
+
+
 
 
 
