@@ -112,9 +112,20 @@ Type into the command line...
    * Using the `fs` Node package, LIRI will take the text inside of random.txt and then use it to call one of LIRI's commands.
 
 
-    ***See the attached images folder for more details about the Liri-bot-app.***
+    ***Link to some of the app images***
 
-    ![Image of Liri] (https://github.com/Tyawo/liri-node-app/blob/master/images/OMDB-search-results.gif)
+    
+    ![Image of Liri-packages used] (https://github.com/Tyawo/liri-node-app/blob/master/images/app-packages.gif)
+
+    ![Images of omdb search ] (https://github.com/Tyawo/liri-node-app/blob/master/images/omdb-search-results.gif)
+
+    ![Images of Bands in Town search] (https://github.com/Tyawo/liri-node-app/blob/master/images/bandsintown-search-result.gif)
+
+
+    ***Link to all Liri-node images***
+
+
+    ![All Liri images] (https://github.com/Tyawo/liri-node-app/tree/master/images)
     
 
 
