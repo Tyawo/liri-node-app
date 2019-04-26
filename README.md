@@ -114,6 +114,9 @@ Type into the command line...
 
     ***See the attached images folder for more details about the Liri-bot-app.***
 
+    ![Image of Liri] (https://github.com/Tyawo/liri-node-app/blob/master/images/OMDB-search-results.gif)
+    
+
 
 
 
