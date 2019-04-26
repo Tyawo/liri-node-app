@@ -104,6 +104,8 @@ Type into the command line...
 
      * It should run `spotify-this-song` for "I Want it That Way," as follows the text in `random.txt`.
 
+     images
+
 
 
 
