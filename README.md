@@ -104,7 +104,20 @@ Type into the command line...
 
      * It should run `spotify-this-song` for "I Want it That Way," as follows the text in `random.txt`.
 
-     images
+     
+     Here are some images of the Liri bot
+
+     images\axios-search-results.gif
+     images\axios-search.
+     images\bandsintown-search-results.gif
+     images\bandsintown-search.gif
+     images\bandsintown.gif
+     images\OMDB.gif
+     images\spotify-api.gif
+     images\spotify-search-result.gif
+     images\spotify.gif
+
+
 
 
 
