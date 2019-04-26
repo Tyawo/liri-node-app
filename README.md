@@ -116,6 +116,8 @@ Type into the command line...
      images\spotify-api.gif
      images\spotify-search-result.gif
      images\spotify.gif
+     C:\Users\HP_User\Desktop\BOOTCAMP\ASSIGNMENT\liri-node-app\images\spotify-search-result.gif
+
 
 
 
