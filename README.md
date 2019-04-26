@@ -1,10 +1,12 @@
 # liri-node-app
 
-# PROJECT OVERVIEW
+
+***PROJECT OVERVIEW***
 
 LIRI is like iPhone's SIRI. However, while SIRI is a Speech Interpretation and Recognition Interface, LIRI is a _Language_ Interpretation and Recognition Interface. LIRI will be a command line node app that takes in parameters and gives you back data from the following APIs: Bandsintown, Spotify and OMDb.
 
-# HOW IT WORKS
+
+***HOW IT WORKS***
 
 Type into the command line...
 
@@ -17,7 +19,7 @@ Type into the command line...
 * node liri.js do-what-it-says to return information stored in random.txt 
 
 
-# TECHNOLOGY AND PACKAGES USED
+***TECHNOLOGY AND PACKAGES USED***
 
 * Node.js
 
@@ -36,7 +38,7 @@ Type into the command line...
 * DotEnv
 
 
-# INSTRUCTIONS TO CREATE AND RUN THE APP
+***BRIEF DESCRIPTION OF STEPS FOLLOWED TO CREATE AND RUN THE APP***
 
 1. Navigate to the root of your project and run `npm init -y` &mdash; this initializes a `package.json` 	file for the project. 
 
@@ -54,7 +56,7 @@ Type into the command line...
 
 
 
-# WHAT EACH COMMAND SHOULD DO
+***WHAT EACH COMMAND SHOULD DO***
 
 1. `node liri.js concert-this 'artist/band name'`
 
@@ -85,40 +87,32 @@ Type into the command line...
    * This will output the following information to your terminal/bash window:
 
        * Title of the movie.
+       
        * Year the movie came out.
+       
        * IMDB Rating of the movie.
+       
        * Rotten Tomatoes Rating of the movie.
+       
        * Country where the movie was produced.
+       
        * Language of the movie.
+       
        * Plot of the movie.
+       
        * Actors in the movie.
      
 
    * If the user doesn't type a movie in, the program will output data for the movie 'Mr. Nobody.'
 
-   * You'll use the `axios` package to retrieve data from the OMDB API. Like all of the in-class activities, the OMDB API requires an API key. You may use `trilogy`.
+   * You'll use the `axios` package to retrieve data from the OMDB API. Like all of the in-class activities, the OMDB API requires an API key. 
 
 4. `node liri.js do-what-it-says`
 
    * Using the `fs` Node package, LIRI will take the text inside of random.txt and then use it to call one of LIRI's commands.
 
-     * It should run `spotify-this-song` for "I Want it That Way," as follows the text in `random.txt`.
 
-     
-     Here are some images of the Liri bot
-
-     images\axios-search-results.gif
-     images\axios-search.
-     images\bandsintown-search-results.gif
-     images\bandsintown-search.gif
-     images\bandsintown.gif
-     images\OMDB.gif
-     images\spotify-api.gif
-     images\spotify-search-result.gif
-     images\spotify.gif
-     C:\Users\HP_User\Desktop\BOOTCAMP\ASSIGNMENT\liri-node-app\images\spotify-search-result.gif
-
-
+    ***See the attached images folder for more details about the Liri-bot-app.***
 
 
 

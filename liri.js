@@ -13,6 +13,7 @@ var fs = require("fs");
 // Link keys file
 var keys = require("./keys.js");
 
+// Request axios
 var axios = require("axios");
 
 // Initialize Spotify
@@ -118,7 +119,6 @@ function spotifyThisSong() {
         };
     });
 }
-
 function movieThis() {
     console.log(`\n-----\n\nSEARCH FOR ..."${userQuery}"`);
     if (!userQuery) { userQuery = "Mr nobody"; };
