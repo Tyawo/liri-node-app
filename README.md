@@ -1,12 +1,12 @@
 # liri-node-app
 
 
-# PROJECT OVERVIEW
+***PROJECT OVERVIEW
 
 LIRI is like iPhone's SIRI. However, while SIRI is a Speech Interpretation and Recognition Interface, LIRI is a _Language_ Interpretation and Recognition Interface. LIRI will be a command line node app that takes in parameters and gives you back data from the following APIs: Bandsintown, Spotify and OMDb.
 
 
-# HOW IT WORKS
+***HOW IT WORKS***
 
 Type into the command line...
 
@@ -19,7 +19,7 @@ Type into the command line...
 * node liri.js do-what-it-says to return information stored in random.txt 
 
 
-# TECHNOLOGY AND PACKAGES USED
+***TECHNOLOGY AND PACKAGES USED***
 
 * Node.js
 
@@ -38,7 +38,7 @@ Type into the command line...
 * DotEnv
 
 
-# INSTRUCTIONS TO CREATE AND RUN THE APP
+***BRIEF DESCRIPTION OF STEPS FOLLOWED TO CREATE AND RUN THE APP***
 
 1. Navigate to the root of your project and run `npm init -y` &mdash; this initializes a `package.json` 	file for the project. 
 
@@ -56,7 +56,7 @@ Type into the command line...
 
 
 
-# WHAT EACH COMMAND SHOULD DO
+***WHAT EACH COMMAND SHOULD DO***
 
 1. `node liri.js concert-this 'artist/band name'`
 
