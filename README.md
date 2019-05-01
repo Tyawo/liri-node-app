@@ -118,6 +118,8 @@ Type into the command line...
     ![Image of Liri-packages used] (https://github.com/Tyawo/liri-node-app/blob/master/images/app-packages.gif)
 
     ![Images of omdb search ] (https://github.com/Tyawo/liri-node-app/blob/master/images/omdb-search-results.gif)
+    
+    [[https://github.com/Tyawo/liri-node-app/blob/master/images/OMDB-search-results.gif|alt=omdb]]
 
     ![Images of Bands in Town search] (https://github.com/Tyawo/liri-node-app/blob/master/images/bandsintown-search-result.gif)
 
