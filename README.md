@@ -119,6 +119,9 @@ Type into the command line...
 
     ![Images of omdb search ] (https://github.com/Tyawo/liri-node-app/blob/master/images/omdb-search-results.gif)
     
+    [omdb](https://github.com/Tyawo/liri-node-app/blob/master/images/OMDB-search-results.gif)
+    
+    
     [[https://github.com/Tyawo/liri-node-app/blob/master/images/OMDB-search-results.gif|alt=omdb]]
 
     ![Images of Bands in Town search] (https://github.com/Tyawo/liri-node-app/blob/master/images/bandsintown-search-result.gif)
