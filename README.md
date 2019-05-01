@@ -114,25 +114,16 @@ Type into the command line...
 
     ***Link to some of the app images***
 
-    
-    ![Image of Liri-packages used] (https://github.com/Tyawo/liri-node-app/blob/master/images/app-packages.gif)
+[packages-used](https://github.com/Tyawo/liri-node-app/blob/master/images/app-packages.gif)
+   
+[omdb](https://github.com/Tyawo/liri-node-app/blob/master/images/OMDB-search-results.gif)
 
-    ![Images of omdb search ] (https://github.com/Tyawo/liri-node-app/blob/master/images/omdb-search-results.gif)
-    
-    [omdb](https://github.com/Tyawo/liri-node-app/blob/master/images/OMDB-search-results.gif)
-    
-    
-    [[https://github.com/Tyawo/liri-node-app/blob/master/images/OMDB-search-results.gif|alt=omdb]]
-
-    ![Images of Bands in Town search] (https://github.com/Tyawo/liri-node-app/blob/master/images/bandsintown-search-result.gif)
+[Bandsintown](https://github.com/Tyawo/liri-node-app/blob/master/images/bandsintown-search.gif)
 
 
-    ***Link to all Liri-node images***
+ ***Link to all liri-node images***
 
+ 
+[More-images](https://github.com/Tyawo/liri-node-app/tree/master/images)
 
-    ![All Liri images] (https://github.com/Tyawo/liri-node-app/tree/master/images) 
-
-
-
-
-
+   
