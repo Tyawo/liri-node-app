@@ -60,7 +60,7 @@ Type into the command line...
 
 1. `node liri.js concert-this 'artist/band name'`
 
-   * This will search the Bands in Town Artist Events API (`"https://rest.bandsintown.com/artists/" + artist + "/events?app_id=codingbootcamp"`) for an artist and render the following information about each event to the terminal:
+   * This will search the Bands in Town Artist Events API for an artist and render the following information about each event to the terminal:
 
      * Name of the venue
 
