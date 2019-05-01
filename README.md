@@ -125,9 +125,7 @@ Type into the command line...
     ***Link to all Liri-node images***
 
 
-    ![All Liri images] (https://github.com/Tyawo/liri-node-app/tree/master/images)
-    https://tyawo.github.io/liri-node-app/
-    
+    ![All Liri images] (https://github.com/Tyawo/liri-node-app/tree/master/images) 
 
 
 
